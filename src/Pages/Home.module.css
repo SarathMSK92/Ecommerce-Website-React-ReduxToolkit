@@ -1,0 +1,12 @@
+.home-screen{
+    background-color: rgba(249, 212, 78, 0.985);
+    padding: 1rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}

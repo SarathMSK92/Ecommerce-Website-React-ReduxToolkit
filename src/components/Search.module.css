@@ -1,0 +1,40 @@
+
+.form-control {
+    border-radius: 4px;
+    padding: 0.5rem;
+    min-width: 30rem;
+    margin: 9px 19px 2px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+/* .form-control:focus{
+    border-style: none;
+border-color: white;
+} */
+
+.input-group-append{
+    margin-left: -4.5rem;
+}
+
+.search-btn{
+    background-color: rgb(247, 224, 168);
+    border-radius: 1px;
+    padding: 3px;
+    margin-right: 8px;
+    border-color: rgb(251, 223, 152);
+}
+
+.Searchicon{
+    margin-left: -3.1rem;
+    margin-right: 0.5rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}

@@ -1,0 +1,24 @@
+.success{
+    margin-top: 1rem;
+}
+
+span{
+    color: red;
+}
+
+.success-img{
+    margin-top: 2rem;
+}
+
+.cart-summary{
+    padding: 2rem;
+    background-color: white;
+    width: 30%;
+    height: auto;
+    box-sizing: border-box;
+    border-color: black;
+    /* border-style: solid; */
+    margin: auto;
+    margin-top: 2rem;
+    
+}

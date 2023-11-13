@@ -1,0 +1,24 @@
+.search-product-container h1 {
+  text-align: start;
+  margin: 2rem 2rem -1rem 3rem;
+}
+
+.display_product {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+
+  justify-content: center;
+  align-items: center;
+  /* padding: 3.3rem; */
+  /* background-color: rgba(128, 128, 128, 0.361); */
+  /* background-color: rgb(230, 221, 221); */
+  margin: auto;
+}
+
+.searched-product {
+  background-color: rgb(230, 221, 221);
+  padding-top: 1.5rem;
+}

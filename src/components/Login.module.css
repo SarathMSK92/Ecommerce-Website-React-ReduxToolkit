@@ -1,0 +1,134 @@
+.overall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: black; */
+  width: auto;
+}
+
+.saracart-logo {
+  width: 35vw;
+  /* margin-top: 2rem; */
+  height: 2rem;
+  /* margin-bottom: -2rem; */
+  /* background-color: black; */
+  border-radius: 10px;
+  margin-right: 5rem;
+  text-align: center;
+  /* margin: 8px 8px 0px 8px; */
+}
+
+.saracart-logo span {
+  font-size: 2rem;
+  color: #b80f6c;
+  font-weight: 700;
+}
+
+.login-container {
+  margin: 5rem auto;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.9);
+  width: 35vw;
+  height: 60vh;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.control {
+  /* margin-bottom: 0.5rem; */
+  /* margin: 2rem; */
+}
+
+.control label {
+  display: block;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  display: block;
+  min-width: 20rem;
+  margin: auto;
+  border-radius: 4px;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid #ccc;
+  margin-top: 0.5rem;
+}
+
+.login-btn {
+  padding: 1rem 1.5rem;
+  background-color: #b80f6c;
+  /* margin: 1rem 0rem 2rem 0rem; */
+
+  display: block;
+  width: 20rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.forgot-password {
+  text-decoration: none;
+}
+
+.forgotdiv {
+  display: block;
+  width: 20rem;
+  margin: auto;
+  text-align: end;
+  font-size: small;
+  margin-top: 1rem;
+}
+
+.login-header {
+  color: #b80f6c;
+  font-size: xx-large;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  display: block;
+  width: 20rem;
+  margin: auto;
+  text-align: start;
+  /* text-align: start; */
+}
+
+.login-image {
+  margin-top: 1rem;
+  border-radius: 100px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+}
+
+.error-text {
+  color: rgba(214, 2, 2, 0.683);
+  padding: 6px;
+  text-align: left;
+  margin-left: 2rem;
+}
+
+.invalid input {
+  border-color: #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.new-user {
+  text-decoration: none;
+}
+
+.signup {
+  display: block;
+  width: 20rem;
+  margin: auto;
+  text-align: end;
+  font-size: small;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

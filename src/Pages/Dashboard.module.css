@@ -1,0 +1,16 @@
+.display_product {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  /* background-color: rgb(230, 221, 221); */
+  margin: 1rem 3rem;
+}
+
+.product-pagination {
+  margin: 1rem;
+}
+
+.pagination-button {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}

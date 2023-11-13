@@ -1,0 +1,105 @@
+
+
+.card {
+    width: 1100px;
+    margin: 12px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.119);
+    padding: 1rem 4rem;  
+    border-radius: 20px;
+    background-color: rgb(255, 251, 251);
+    /* width: 70%; */
+    /* cursor: pointer; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h6{
+    margin-top: 4px;
+    margin-left: 1rem;
+
+}
+
+.card-price, .card-discount, .card-rating{
+    font-weight: inherit;
+    color: #1d6721;
+}
+
+.strikeout{
+    text-decoration: line-through;
+    font-size: small;
+    margin-right: 3px;
+    margin-left: 5px;
+    color: rgb(136, 134, 134);
+
+}
+
+.item-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th{
+    color: rgb(209, 7, 7);
+    text-align: center;
+}
+
+td{
+    text-align: center;
+}
+
+table{
+    margin-left: 7rem;
+}
+
+
+.card-price{
+    margin-left: 2rem; 
+    font-size: medium;
+    text-align: center;
+}
+
+h3{
+    margin: 0 10px;
+}
+
+h4{
+    margin-bottom: 3px;
+    margin-left: 0.5rem;
+    /* text-decoration: underline; */
+}
+
+button{
+    border-radius: 7px;
+    padding: 3px 10px;
+    margin-top: 7px;
+    margin-left: 1rem;
+}
+.btn-available{
+    background-color: rgb(8, 120, 71);
+    color: white;
+
+}
+
+.btn-out{
+    background-color: transparent;
+    color: black;
+    padding: 1px 17px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+.btn-out-remove{
+    background-color: black;
+    color: white; 
+    padding: 4px;
+}
+
+.qty {
+    margin-left: 1rem;
+    color: red;
+}

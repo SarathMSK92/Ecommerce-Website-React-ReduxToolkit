@@ -1,0 +1,75 @@
+.card {
+    margin: 8px;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.119);
+    padding: 1rem;
+    border-radius: 10px;
+    /* background-color: rgba(128, 128, 128, 0.119); */
+    background-color: #fff;
+    width: 320px;
+    cursor: pointer;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 3rem;
+}
+
+h6{
+    margin-top: 4px;
+}
+
+h4{
+    margin-bottom: 3px;
+    /* text-decoration: underline; */
+}
+
+.card-title{
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.card-price, .card-discount, .card-rating{
+    font-size: medium;
+    font-weight: inherit;
+}
+
+.card-rating{
+    line-height: normal;
+    display: inline-block;
+    color: #fff;
+    margin-top: 5px;
+    padding: 4px 0px 4px 8px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    vertical-align: middle;
+    background-color: #388e3c;
+}
+
+.card-body:hover{
+    .card-title{
+        color: #2874f0;
+    }
+}
+
+button{
+    border-radius: 10px;
+    padding: 3px 10px;
+    margin-top: 7px;
+    font-weight: 600;
+}
+
+.btn-available{
+    background-color: rgb(8, 120, 71);
+    color: white;
+}
+
+.btn-out{
+    color: red;
+    font-weight: bold;
+}
+
+.btn-out:hover{
+    background-color: rgb(188, 70, 70);
+    color: white;
+}
